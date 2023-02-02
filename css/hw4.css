@@ -84,6 +84,7 @@ h1, h2, h3{
     border-radius: 20px;
     border: solid 3px #7EA1C4;
     background-color: whitesmoke;
+    padding: 8px 16px 8px 16px;
 
 }
 
@@ -97,18 +98,18 @@ h1, h2, h3{
 
 .grid div:nth-child(3n+1)  {
     /* Set box shadow */
-    box-shadow: 5px 10px 8px #888888;    
+    box-shadow: 5px 0px 5px #888888;    
     }
 
 .grid div:nth-child(3n)  {
     /* Set box shadow */ 
-    box-shadow: -5px 10px 8px #888888;    
+    box-shadow: -5px 0px 5px #888888;    
 
 }
 
 .grid div:nth-child(3n+2)  {
      /* Set box shadow */
-     box-shadow: -5px 10px 8px #888888,5px 10px 8px #888888;    
+     box-shadow: -5px 0px 5px #888888,5px 0px 5px #888888;    
 
 }
     
